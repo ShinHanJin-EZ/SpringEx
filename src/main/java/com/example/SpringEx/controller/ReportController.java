@@ -20,7 +20,7 @@ public class ReportController {
     }
 
 
-    @GetMapping("/report")
+    @GetMapping("/reports")
     public List<ReportDTO> getReport() {
         return reportService.getReport();
     }

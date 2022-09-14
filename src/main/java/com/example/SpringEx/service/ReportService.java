@@ -3,7 +3,6 @@ package com.example.SpringEx.service;
 import com.example.SpringEx.service.dto.ReportDTO;
 import com.example.SpringEx.service.mapper.ReportMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.parsing.EmptyReaderEventListener;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,5 +20,4 @@ public class ReportService {
     public List<ReportDTO> getReport() {
         return reportMapper.getReport();
     }
-
 }
